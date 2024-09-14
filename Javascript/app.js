@@ -187,3 +187,8 @@ const form = document.querySelector("form");
 document.querySelector('#aboutUsNav').addEventListener('click',()=> {
     document.getElementById('aboutUs').style.paddingTop = '100px'
 })
+
+document.getElementById("contactUs").addEventListener('submit',event => {
+    event.preventDefault()
+    window.confirm(`Message Received`)
+})
