@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="/JS_Coursera/Final Project/CSS/landingpage.css">
+    <link rel="stylesheet" href="/JS_Coursera/Final Project/CSS/aboutUs.css">
+    <link r  l="stylesheet" href="/JS_Coursera/Final Project/CSS/contactUs.css">
+    <link rel="stylesheet" href="/JS_Coursera/Final Project/CSS/contactForm.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="/JS_Coursera/Final Project/logo/image.png" alt="Plane Logo">
+        </div>
+        <div class="navigation">
+            <ul>
+                <a href="#Home">
+                    <li>Home</li>
+                </a>
+
+                <a href="#aboutUs">
+                    <li id="aboutUsNav">About Us</li>
+                </a>
+
+                <a href="#contactUs">
+                    <li>Contact Us</li>
+                </a>
+            </ul>
+        </div>
+        <div class="searching">
+            <form>
+                <input id="userInput" type="text" placeholder="Enter a location or city (e.g., Tokyo).">
+                <button type="submit" class="search-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+                </button>
+                <button type="submit" class="search-btn">Search</button>
+                <button type="reset" class="clear-btn">Clear</button>
+            </form>
+        </div>
+    </nav>
+    <main>
+            <div id="Home" class="homeContainer">
+                <div class="contentContainer">
+                    <h1>EXPLORE DREAM DESTINATION</h1>
+                    <p>It encourages exploration of unfamiliar territories embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder</p>
+                    <button>BOOK NOW</button>
+                    </div>
+                    <div class="timeDisplay">
+                        <div class="displayTime">
+                            <p id="tz">TimeZone and Recommendation Will Appear Here</p>
+                        </div>
+                        <div id="displayArea" class="displayArea">
+                        </div> 
+                    </div>
+                    
+            </div>  
+
+            <div id="aboutUs" class="aboutusContainer">
+                <div class="contentContainer">
+                    <h1>ABOUT US</h1>
+                    <div class="aboutUsCard">
+                        <p>
+                            Welcome to Our Company! We are a team of passionate individuals dedicated to providing excellent services/products to our customers. Our mission is to provide the best experience for people traveling to different destinations around the world. Our values include integrity, innovation, customer satisfaction, and teamwork. We believe in putting our customers first and working together to achieve our goals.
+                            Feel free to explore our website to learn more about what we offer!
+                        </p>
+                    </div>
+                    <div class="ourTeamCard">
+                        <h1>Our Team</h1>
+                        <div class="teamCard">
+                            <h3>Winston Nji</h3>
+                            <p>Winston is a future FullStack Developer</p>
+                            <p id="role">
+                                CEO
+                            </p>
+                        </div>
+                        <div class="teamCard">
+                            <h3>Pablo</h3>
+                            <p>Pablo is an aspiring Back-End engineer</p>
+                            <p id="role">
+                                Back-End Engineer
+                            </p>
+                        </div>
+                        <div class="teamCard">
+                            <h3>Kev</h3>
+                            <p>Kev is an aspiring Front-End engineer</p>
+                            <p id="role">
+                                Front-End Engineer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contactUsContainer contentContainer">
+                <h1>Company History</h1>
+                <p>
+                    Founded in 2018 by avid travelers, our journey began with a vision to simplify travel planning by offering personalized recommendations tailored to individual preferences. Starting as a passion project, our commitment to curating unique travel experiences led to the official launch of our platform driven by a team enthusiastic about exploring the world. Over the years, we've evolved into a trusted hub, leveraging cutting-edge technology and expert insights to provide tailored destination suggestions that resonate with diverse travelers.</p>
+                    <h1>Our Location</h1>
+                    <div class="contactUsImages">
+                        <img src="https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Image of a city">
+                        <img src="https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Image of another City">
+                    </div>
+            </div>
+
+            <div class="contactForm">
+                <div class="basicInfo">
+                    <h1>Contact Us</h1>
+                    <p>Get in touch</p>
+                </div>
+                
+                <div class="contactFormContainer">
+                    <form id="contactUs" class="contactForm">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" placeholder="Name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="Email" required>
+
+                        <label for="message">Message</label>
+                        <textarea name="message" placeholder="Message" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+            </div>
+    </main>
+</body>
+<script type="module" src="/JS_Coursera/Final Project/Javascript/app.js"></script>
+</html>

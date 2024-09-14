@@ -1,0 +1,30 @@
+.contactUsContainer{
+    display: flex;
+    flex-direction: column;
+    min-height: fit-content;
+    backdrop-filter: blur(10px);
+    margin: 0 auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    padding-left: 0;
+    padding: 30px;
+    margin-top: 0px;
+
+}
+
+.contactUsImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contactUsImages img{
+    width: 500px;
+}
+
+.contactUsContainer p{
+    font-size: 16px;
+    width: 100%;
+}
+
