@@ -21,6 +21,7 @@ body{
     background-repeat:repeat-y;
     background-size: contain;
     align-items: center;
+    overflow-x: hidden;
 }
 nav{
     display: flex;
