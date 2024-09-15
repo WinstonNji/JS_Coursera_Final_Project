@@ -124,7 +124,7 @@ const form = document.querySelector("form");
                 selectedActivities.length = 0; // Clear previous selections
 
                 // Randomly selects 7 activities out of all filtered activities
-                for(let i = 0; i < 4; i++){
+                for(let i = 0; i < 6; i++){
                     const dataLength = generateRandomNumber(compatibleActivities.length)
     
                     let selectedActivity = compatibleActivities[dataLength]
@@ -186,9 +186,4 @@ const form = document.querySelector("form");
 
 document.querySelector('#aboutUsNav').addEventListener('click',()=> {
     document.getElementById('aboutUs').style.paddingTop = '100px'
-})
-
-document.getElementById("contactUs").addEventListener('submit',event => {
-    event.preventDefault()
-    window.confirm(`Message Received`)
 })

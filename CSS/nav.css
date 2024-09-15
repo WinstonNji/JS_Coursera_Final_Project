@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    min-height: 100vh;
+    padding: 0px;
+    margin-left: 0;
+    margin-right: 0px;
+    margin-top: 0;
+    padding-left: 0px;
+    width: 100vw;
+    overflow-x: hidden;
+    background-image: url(https://images.pexels.com/photos/421655/pexels-photo-421655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat:repeat-y;
+    background-size: contain;
+    align-items: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0d5466;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-right: 5px;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100vw;
+    min-height: 30px;
+    padding-bottom: 38px;
+}
+.logo img{
+    width: 35px; 
+    border-radius: 10px;
+    justify-content: flex-start;
+    margin-left: -7px;
+}
+.navigation{
+    width: 50%;
+    box-sizing: border-box;
+    color: white;
+}
+.navigation ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 600;
+    font-size: large;
+    cursor: pointer;
+    padding: 0;
+    font-size: 0.8rem;
+}
+.searching{
+    width: 40%;
+}
+form{
+    box-sizing: border-box;
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 15px;
+    flex-grow: 1;
+    width: 100%;   
+}
+input{
+    box-sizing: border-box;
+    padding: 15px;
+    width: 100%;
+    border-radius: 20px;
+    color: black;
+    font-size: 1rem;
+    caret-color: green;
+    accent-color: green;
+    border: none;
+    font-size: 0.6rem;
+}
+input:focus{
+    outline: none;
+}
+.search-icon{
+    position: absolute;
+    top: 45px;
+    left: 7px;
+    border-radius: 10px;
+    font-weight: 600;
+    display: none;
+}
+.search-btn{
+    position: absolute;
+    top: 45px;
+    right: 53px;
+    font-size: 15px;
+    padding: 9px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 0.5rem;
+}
+.clear-btn{
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    font-size: 15px;
+    padding: 9px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 0.5rem;
+}
+button{
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: white;
+    background-color: #0d5466;
+    border: 1px solid rgba(255, 255, 255, 0.701);
+}
+.homeContainer button{
+    padding: 10px;
+    width: fit-content;
+    font-weight: 700;
+}
+
+
+@media (min-width:426px){
+    .navigation ul{
+        font-size: 1rem;
+    }
+    input{
+        font-size: 0.65rem;
+    }
+}
+
+@media (min-width:720px){
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 10px;
+        padding-right: 10px;
+        align-items: center;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        width: 100vw;
+        min-height: 30px;
+    }
+    input{
+        box-sizing: border-box;
+        padding: 15px;
+        width: 60%;
+        border-radius: 20px;
+        color: black;
+        font-size: 0.8rem;
+        caret-color: green;
+        accent-color: green;
+        background-color: white;
+        border: none;
+    }
+    input:focus{
+        outline: none;
+    }
+    .search-btn{
+        position: absolute;
+        top: 6px;
+        right: 65px;
+        font-size: 0.7rem;
+        padding: 9px;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+    .clear-btn{
+        position: absolute;
+        top: 6px;
+        right: 10px;
+        font-size: 0.7rem;
+        padding: 9px;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+    .logo img{
+        width: 50px; 
+        border-radius: 10px;
+        justify-content: flex-start;
+        margin-left: 1px;
+    }
+    .navigation ul{
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width:1024px){
+    input{
+        box-sizing: border-box;
+        padding: 15px;
+        width: 75%;
+        border-radius: 20px;
+        color: black;
+        font-size: 0.8rem;
+        caret-color: green;
+        accent-color: green;
+        background-color: white;
+        border: none;
+    }
+}

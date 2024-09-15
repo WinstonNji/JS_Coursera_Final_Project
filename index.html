@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Recommendation</title>
-    <link rel="icon" href="logo/image.png" type="image/png">
-    <link rel="stylesheet" href="CSS/landingpage.css">
-    <link rel="stylesheet" href="CSS/aboutUs.css">
-    <link rel="stylesheet" href="CSS/contactUs.css">
-    <link rel="stylesheet" href="CSS/contactForm.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="/JS_Coursera/Final Project/CSS/landingpage.css">
+    <link rel="stylesheet" href="/JS_Coursera/Final Project/CSS/aboutUs.css">
+    <link rel="stylesheet" href="/JS_Coursera/Final Project/CSS/contactUs.css">
+    <link rel="stylesheet" href="/JS_Coursera/Final Project/CSS/contactForm.css">
 </head>
 <body>
     <nav>
         <div class="logo">
-            <img src="logo/image.png" alt="Plane Logo">
+            <img src="/JS_Coursera/Final Project/logo/image.png" alt="Plane Logo">
         </div>
         <div class="navigation">
             <ul>
@@ -21,7 +21,7 @@
                     <li>Home</li>
                 </a>
 
-                <a href="#aboutUs">
+                <a href="#aboutUs ">
                     <li id="aboutUsNav">About Us</li>
                 </a>
 
@@ -32,21 +32,24 @@
         </div>
         <div class="searching">
             <form>
-                <input id="userInput" type="text" placeholder="Enter a location or city (e.g., Tokyo).">
-                <button type="submit" class="search-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
-                </button>
-                <button type="submit" class="search-btn">Search</button>
-                <button type="reset" class="clear-btn">Clear</button>
+                <input id="userInput" type="text" placeholder="Enter a location (e.g. Tokyo).">
+                <div class="formButtons">
+                    <button type="submit" class="search-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="33px" fill="white"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+                    </button>
+                    <button type="submit" class="search-btn">Search</button>
+                    <button type="reset" class="clear-btn">Clear</button>
+                </div>
+
             </form>
         </div>
     </nav>
     <main>
             <div id="Home" class="homeContainer">
                 <div class="contentContainer">
-                    <h1>EXPLORE DREAM DESTINATION</h1>
-                    <p>It encourages exploration of unfamiliar territories embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder</p>
-                    <button>BOOK NOW</button>
+                    <h1>EXPLORE YOUR DREAM DESTINATION</h1>
+                    <p>Welcome to Winnie Travel Advisor. Here you can explore all unfamiliar territories embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder</p>
+                    <button>Get Started</button>
                     </div>
                     <div class="timeDisplay">
                         <div class="displayTime">
@@ -98,11 +101,6 @@
                 <h1>Company History</h1>
                 <p>
                     Founded in 2018 by avid travelers, our journey began with a vision to simplify travel planning by offering personalized recommendations tailored to individual preferences. Starting as a passion project, our commitment to curating unique travel experiences led to the official launch of our platform driven by a team enthusiastic about exploring the world. Over the years, we've evolved into a trusted hub, leveraging cutting-edge technology and expert insights to provide tailored destination suggestions that resonate with diverse travelers.</p>
-                    <h1>Our Location</h1>
-                    <div class="contactUsImages">
-                        <img src="https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Image of a city">
-                        <img src="https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Image of another City">
-                    </div>
             </div>
 
             <div class="contactForm">
@@ -126,5 +124,5 @@
             </div>
     </main>
 </body>
-<script type="module" src="Javascript/app.js"></script>
+<script type="module" src="/JS_Coursera/Final Project/Javascript/app.js"></script>
 </html>
